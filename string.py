@@ -19,3 +19,18 @@ print('My name is {} {}, you can call me {}.'.format('John', 'Doe', 'John'))
 # is the same as:
 print('My name is {first} {family}, you can call me {first}.'
     .format(first='John', family='Doe'))
+
+# str.join()
+pandas = 'pandas'
+numpy = 'numpy'
+requests = 'requests'
+cool_python_libs = ', '.join([pandas, numpy, requests])
+print('Some cool python libraries: {}'.format(cool_python_libs))
+
+# alternative but not Pythonic and slower
+cool_python_libs = pandas + ', ' + numpy + ', ' + requests
+print('Some cool python libraries: {}'.format(cool_python_libs))
+cool_python_libs = pandas
+cool_python_libs += ', ' + numpy
+cool_python_libs += ', ' + requests
+print('Some cool python libraries: {}'.format(cool_python_libs))
