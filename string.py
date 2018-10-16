@@ -34,3 +34,24 @@ cool_python_libs = pandas
 cool_python_libs += ', ' + numpy
 cool_python_libs += ', ' + requests
 print('Some cool python libraries: {}'.format(cool_python_libs))
+
+# str.upper(), str.lower(), str.title()
+mixed_case = 'PyTHoN hackER'
+print(mixed_case.upper())
+print(mixed_case.lower())
+print(mixed_case.title())
+
+# str.strip()
+ugly_formatted = ' \n \t Some story to tell '
+stripped = ugly_formatted.strip()
+print('ugly: {}'.format(ugly_formatted))
+print('stripped: {}'.format(ugly_formatted.strip()))
+
+# str.split()
+sentence = 'three different words'
+words = sentence.split()
+print(words)
+print(type(words))
+secret_binary_data = '01001,101101,11100000'
+binaries = secret_binary_data.split(',')
+print(binaries)
