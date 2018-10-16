@@ -55,3 +55,17 @@ print(type(words))
 secret_binary_data = '01001,101101,11100000'
 binaries = secret_binary_data.split(',')
 print(binaries)
+
+# Calling multiple methods in a row
+ugly_mixed_case = '   ThIS LooKs BAd '
+pretty = ugly_mixed_case.strip().lower().replace('bad', 'good')
+print(pretty)
+
+pretty = ugly_mixed_case.replace('bad', 'good').strip().lower()
+print(pretty)
+
+# Escape characters
+two_lines = 'First line\nSecond line'
+print(two_lines)
+indented = '\tThis will be indented'
+print(indented)
