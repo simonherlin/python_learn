@@ -1,3 +1,5 @@
 # python_learn
 
-## Learning python from these notebooks [website](https://github.com/jerry-git/learn-python3)
+## Description
+
+Learning all specificity of python from these notebooks [website](https://github.com/jerry-git/learn-python3)
